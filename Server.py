@@ -1,11 +1,8 @@
 import socket
 import pickle
 import numpy as np
-from dotenv import load_dotenv
 
 from multiprocessing import Pool
-
-load_dotenv()
 
 HOST = 'localhost'
 
